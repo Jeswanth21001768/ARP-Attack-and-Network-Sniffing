@@ -5,53 +5,43 @@
 
 To explore network sniffing and ARP Attacks
 
-## ALGORITHM:
+## STEPS:
 
-1) Install kali linux either in partition or virtual box or in live mode
+### Step 1:
 
-2) Investigate on the various categories of tools as follows:
+Install kali linux either in partition or virtual box or in live mode
 
-3) Open terminal and try execute some kali linux commands
+### Step 2:
+
+Investigate on the various categories of tools as follows:
 
 
-## METHODS:
+### Step 3:
+Open terminal and try execute some kali linux commands
 
-### ARP Attacks:  
+## ARP Attacks:  
 ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC address with an IP of a computer already on the LAN. 
 Boot kali and Windows7 virtual machines.
-
 In windows 7 give the command arp -a
+## OUTPUT:
+![image](https://github.com/sachinezhilmaran/ARP-Attack-and-Network-Sniffing/assets/128135351/968d6dd7-1455-4312-9b00-e4db6e39a129)
 
-#### OUTPUT:
+From kali linux issue the command : sudo arpspoof -i eth0 -t
+# OUTPUT:
+![image](https://github.com/sachinezhilmaran/ARP-Attack-and-Network-Sniffing/assets/128135351/ee3dc26a-438a-4d83-b7c2-0e27fe1c51e0)
 
-![image](https://github.com/Kirupanandhan/ARP-Attack-and-Network-Sniffing/assets/94386222/e6e56ed3-5bdd-455c-a3b9-5f0ce12ceb52)
+dsniff:
+In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 
+# OUTPUT:
+![image](https://github.com/sachinezhilmaran/ARP-Attack-and-Network-Sniffing/assets/128135351/56999a83-03fd-4cb0-8d75-c606a8cc0588)
 
+In Kali issue the following commands: sudo dsnifff
 
-### From kali linux issue the command : sudo arpspoof -i eth0 -t <target system> <gateway>
-
-#### OUTPUT:
-
-![image](https://github.com/Kirupanandhan/ARP-Attack-and-Network-Sniffing/assets/94386222/cae92cd1-ddb4-47e9-92fb-2e2ba43563e2)
-
-
-
-### dsniff: In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
-
-![image](https://github.com/Kirupanandhan/ARP-Attack-and-Network-Sniffing/assets/94386222/306ceabb-a2ee-424e-a50e-8201bd2b9659)
-
-
-### In Kali issue the following commands:  sudo dsnifff
-
-#### OUTPUT:
-
-![image](https://github.com/Kirupanandhan/ARP-Attack-and-Network-Sniffing/assets/94386222/fa77176d-db5d-4e89-91b9-6502e56dd12b)
-
-
-### Invoke the wireshark and examine the various menus and controls of the tool:
-
-![image](https://github.com/Kirupanandhan/ARP-Attack-and-Network-Sniffing/assets/94386222/2dc317ad-5bd1-4104-8772-6adeb2a90151)
-
+# OUTPUT:
+![image](https://github.com/sachinezhilmaran/ARP-Attack-and-Network-Sniffing/assets/128135351/8318dd2f-b75a-4a53-a54a-9047485aa2ba)
+Invoke the wireshark and examine the various menus and controls of the tool:
+![image](https://github.com/sachinezhilmaran/ARP-Attack-and-Network-Sniffing/assets/128135351/b4d2d011-1200-4852-89ca-2819394a0a21)
 
 ## RESULT:
-The kali linux tools for ARP Attack and Network Sniffing were identified successfully
+The Kali Linux tools for ARP Attack and Network Sniffing were identified successfully
